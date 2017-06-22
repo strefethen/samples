@@ -1,1 +1,1 @@
-vm
+vm_svc = VM(stub_config)

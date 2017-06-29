@@ -1,6 +1,5 @@
-vm_name = testbed.config['VM_NAME_DEFAULT']
-server, username, password, cleardata, skip_verification, vm_name = \
-    parse_cli_args_vm(testbed.config['VM_NAME_DEFAULT'])
+from com.vmware.vcenter.vm_client import Power
+...
 stub_config = vapiconnect.connect(server,
                                     username,
                                     password,

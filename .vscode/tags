@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Session	../com/vmware/cis/session.py	/^from com.vmware.cis_client import Session$/;"	kind:namespace	line:1
+power.py	../com/vmware/vcenter/VM/power.py	1;"	kind:file	line:1
+session.py	../com/vmware/cis/session.py	1;"	kind:file	line:1
+status	../com/vmware/vcenter/VM/power.py	/^status = vm_power_svc.get(vm)$/;"	kind:variable	line:22
+stub_config	../com/vmware/vcenter/VM/power.py	/^stub_config = vapiconnect.connect(server,$/;"	kind:variable	line:4
+suspend.py	../com/vmware/vcenter/VM/suspend.py	1;"	kind:file	line:1
+vm	../com/vmware/vcenter/VM/power.py	/^vm = get_vm(stub_config, vm_name)$/;"	kind:variable	line:11
+vm.py	../com/vmware/vcenter/vm.py	1;"	kind:file	line:1
+vm_name	../com/vmware/vcenter/VM/power.py	/^vm_name = testbed.config['VM_NAME_DEFAULT']$/;"	kind:variable	line:1
+vm_power_svc	../com/vmware/vcenter/VM/power.py	/^vm_power_svc = Power(stub_config)$/;"	kind:variable	line:18
+vm_svc	../com/vmware/vcenter/vm.py	/^vm_svc = VM(stub_config)/;"	kind:variable	line:1

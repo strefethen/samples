@@ -1,4 +1,4 @@
-## Example 1
+### Example 1
 Suspends VM
 
 <pre>
@@ -7,7 +7,7 @@ Suspends VM
 </code>
 </pre>
 
-## Example 2
+### Example 2
 Here is another example of how suspend can be used
 
 <pre>

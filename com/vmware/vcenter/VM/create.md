@@ -9,7 +9,7 @@ Create a VM with the following configuration:
   
 Use guest and system provided defaults for most configuration settings.
 <pre>
-<code>
+<code class="language-python">
 guest_os = testbed.config['VM_GUESTOS']
 
 boot_disk = Disk.CreateSpec(type=Disk.HostBusAdapterType.SCSI,
@@ -31,3 +31,5 @@ vm_create_spec = VM.CreateSpec(name=self.vm_name,
                                disks=[boot_disk, data_disk],
                                nics=[nic],
                                boot_devices=boot_device_order)
+</code>
+</pre>
